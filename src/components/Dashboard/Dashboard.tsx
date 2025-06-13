@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { Inputs } from "@custom-types/types";
+import type { Inputs } from "@custom-types";
 import { Symbols } from "../Symbols/Symbols";
 
 export const Dashboard = () => {

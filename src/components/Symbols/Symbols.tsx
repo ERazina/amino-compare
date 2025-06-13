@@ -2,7 +2,7 @@ import { Symbol, GridWrapper, Row } from "./styles";
 import { Snackbar, Alert } from "@mui/material";
 import { useClipboardAlert } from "../hooks/useClipboardAlert";
 import { useSymbolColors } from "../hooks/useSymbolColors";
-import { Legend } from "components/Legend/Legend";
+import { Legend } from "@components/Legend/Legend";
 
 type SymbolsProps = {
   formData: {

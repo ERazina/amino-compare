@@ -1,4 +1,4 @@
-import { Box, Typography, Chip } from "@mui/material";
+import { Box, Chip } from "@mui/material";
 import { symbolColors } from "../../constants/constants";
 
 const aminoAcidsMap: Record<string, string> = {

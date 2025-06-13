@@ -1,5 +1,5 @@
 import { TextField } from "@mui/material";
-import { FieldError, UseFormRegisterReturn } from "react-hook-form";
+import type { FieldError, UseFormRegisterReturn } from "react-hook-form";
 
 interface FormInputFieldProps {
   label: string;
