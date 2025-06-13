@@ -1,5 +1,6 @@
 {
   "name": "biocad-app",
+  "homepage": "https://erazina.github.io/amino-compare",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
