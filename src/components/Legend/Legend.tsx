@@ -1,5 +1,5 @@
 import { Box, Chip } from "@mui/material";
-import { symbolColors } from "../../constants/constants";
+import { symbolColors } from "@constants";
 
 const aminoAcidsMap: Record<string, string> = {
   A: "Alanine",

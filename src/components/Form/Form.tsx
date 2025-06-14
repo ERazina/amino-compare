@@ -4,9 +4,11 @@ import { Button, Stack, Snackbar, Alert } from "@mui/material";
 
 import { StyledForm } from "./styles";
 import { FormInputField } from "./FormInputField";
-import { useFormWithValidation } from "../hooks/useFormWithValidation";
-import { useAminoValidation } from "../hooks/useAminoValidation";
-import { useFormAlert } from "../hooks/useFormAlert";
+import {
+  useFormWithValidation,
+  useAminoValidation,
+  useFormAlert,
+} from "@hooks";
 
 export const Form = () => {
   const methods = useFormWithValidation();
@@ -43,7 +45,10 @@ export const Form = () => {
           <FormInputField
             label="First Amino"
             placeholder="First amino"
-            register={register("first", getValidationRules("Первая последовательность"))}
+            register={register(
+              "first",
+              getValidationRules("Первая последовательность")
+            )}
             onInput={(e) => {
               const target = e.target as HTMLInputElement;
               target.value = filterInput(target.value);
@@ -54,7 +59,10 @@ export const Form = () => {
           <FormInputField
             label="Second Amino"
             placeholder="Second amino"
-            register={register("second", getValidationRules("Вторая последовательность"))}
+            register={register(
+              "second",
+              getValidationRules("Вторая последовательность")
+            )}
             onInput={(e) => {
               const target = e.target as HTMLInputElement;
               target.value = filterInput(target.value);

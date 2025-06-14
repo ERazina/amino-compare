@@ -13,9 +13,12 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
+      "@hooks": ["hooks"],
       "@hooks/*": ["hooks/*"],
+      "@constants": ["constants"],
       "@constants/*": ["constants/*"],
-      "@custom-types": ["types/index.ts"]
+      "@custom-types": ["types"],
+      "@custom-types/*": ["types/*"]
     },
 
     /* Уточнённые фичи сборки */
