@@ -5,6 +5,7 @@ import { ghPages } from "vite-plugin-gh-pages";
 
 export default defineConfig({
   plugins: [react(), ghPages()],
+  base: "/amino-compare/",
   resolve: {
     alias: {
       "@components": path.resolve(__dirname, "src/components"),
